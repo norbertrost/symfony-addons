@@ -41,6 +41,8 @@ doctrine:
 
   orm:
     auto_generate_proxy_classes: '%kernel.debug%'
+    enable_lazy_ghost_objects: true
+    report_fields_where_declared: true
     mappings:
       Fixtures:
         is_bundle: false

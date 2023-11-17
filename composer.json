@@ -10,8 +10,14 @@
         "symfony/framework-bundle":  "^6.2",
         "symfony/yaml": "^6.2"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/soyuka/core.git"
+        }
+    ],
     "require-dev": {
-        "api-platform/core": "^3.1.0",
+        "api-platform/core": "dev-error-bc",
         "doctrine/doctrine-bundle": "^2.2.0",
         "doctrine/data-fixtures": "^1.5.2",
         "doctrine/doctrine-fixtures-bundle": "^3.4.4",
